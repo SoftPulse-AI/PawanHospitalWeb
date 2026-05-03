@@ -1,7 +1,8 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "pawan-hospital",
   "private": true,
   "version": "0.0.0",
+  "description": "Pawan Hospital official website",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -15,6 +15,7 @@ import { FAQ } from "@/components/FAQ";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { FloatingCTA } from "@/components/FloatingCTA";
+import { ScrollToTopButton } from "@/components/ScrollToTopButton";
 import { LeadPopup, useLeadAutoOpen } from "@/components/LeadPopup";
 
 const Index = () => {
@@ -46,6 +47,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTopButton />
       <FloatingCTA />
       <LeadPopup open={open} onOpenChange={setOpen} />
     </div>

@@ -91,11 +91,11 @@ export const Doctors = ({ onBook }: { onBook: () => void }) => {
             aria-hidden
           />
 
-          <div className="pointer-events-none absolute -top-11 right-0 z-30 flex items-center gap-2">
+          <div className="pointer-events-none absolute left-1 right-1 top-1/2 z-30 flex -translate-y-1/2 items-center justify-between">
             <button
               type="button"
               onClick={() => scrollDoctors("left")}
-              className="pointer-events-auto inline-flex h-9 w-9 items-center justify-center rounded-full border border-border bg-card text-foreground shadow-soft transition hover:border-primary/40"
+              className="pointer-events-auto inline-flex h-9 w-9 items-center justify-center rounded-full border border-border bg-card/95 text-foreground shadow-soft transition hover:border-primary/40"
               aria-label="Scroll doctors left"
             >
               <ChevronLeft className="h-4 w-4" />
@@ -103,7 +103,7 @@ export const Doctors = ({ onBook }: { onBook: () => void }) => {
             <button
               type="button"
               onClick={() => scrollDoctors("right")}
-              className="pointer-events-auto inline-flex h-9 w-9 items-center justify-center rounded-full border border-border bg-card text-foreground shadow-soft transition hover:border-primary/40"
+              className="pointer-events-auto inline-flex h-9 w-9 items-center justify-center rounded-full border border-border bg-card/95 text-foreground shadow-soft transition hover:border-primary/40"
               aria-label="Scroll doctors right"
             >
               <ChevronRight className="h-4 w-4" />
