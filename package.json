@@ -1,7 +1,7 @@
 {
   "name": "pawan-hospital-web",
   "private": true,
-  "homepage": "https://pawanhospitals.com/",
+  "homepage": "https://softpulse-ai.github.io/PawanHospitalWeb/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
