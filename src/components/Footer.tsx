@@ -51,7 +51,7 @@ export const Footer = () => {
         </div>
         <div className="pt-6 border-t border-white/15 text-xs opacity-75 flex flex-col md:flex-row justify-between gap-2">
           <div>© {new Date().getFullYear()} Pawan Hospital. All rights reserved.</div>
-          <div>Best Hospital in Samaypur Ballabhgarh</div>
+          <div>Best Hospital in Faridabad , Ballabhgarh</div>
         </div>
       </div>
     </footer>
