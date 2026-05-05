@@ -115,17 +115,17 @@ export const Hero = ({ onBook }: { onBook: () => void }) => {
               </div>
 
               {/* Mini ECG monitor */}
-              <div className="mb-3 p-3 rounded-xl bg-gradient-to-br from-primary-deep to-primary overflow-hidden relative">
-                {/* <div className="flex items-center justify-between mb-1">
+              {/* <div className="mb-3 p-3 rounded-xl bg-gradient-to-br from-primary-deep to-primary overflow-hidden relative">
+                <div className="flex items-center justify-between mb-1">
                   <span className="text-[10px] uppercase tracking-wider text-white/70 font-semibold">Heart Rate Monitor</span>
                   <span className="text-xs font-mono text-emergency font-bold flex items-center gap-1">
                     <HeartPulse className="h-3 w-3 animate-heartbeat" /> 72 BPM
                   </span>
-                </div> */}
+                </div>
                 <svg viewBox="0 0 200 40" className="w-full h-10 text-emergency">
                   <path d="M0 20 L40 20 L48 8 L56 32 L64 20 L100 20 L108 12 L116 28 L124 20 L160 20 L168 6 L176 34 L184 20 L200 20" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" className="ecg-line-2" />
                 </svg>
-              </div>
+              </div> */}
 
               <div className="space-y-2.5">
                 {[
