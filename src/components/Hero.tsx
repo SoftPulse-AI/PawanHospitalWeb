@@ -81,7 +81,7 @@ export const Hero = ({ onBook }: { onBook: () => void }) => {
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl">
             {[
-              { icon: ShieldCheck, label: "Trusted Care", sub: "1000+ Patients" },
+              { icon: ShieldCheck, label: "Trusted Care", sub: "50K+ Patients" },
               { icon: Clock, label: "24×7 Open", sub: "Always Available" },
               { icon: Award, label: "Expert Team", sub: "Senior Doctors" },
               { icon: Activity, label: "Modern Tech", sub: "Advanced Equip." },
@@ -149,7 +149,7 @@ export const Hero = ({ onBook }: { onBook: () => void }) => {
                 <Calendar className="h-4 w-4 mr-2" /> Book Now — Free
               </Button>
               <div className="mt-3 text-center text-[11px] text-muted-foreground">
-                ✓ No waiting · ✓ Instant confirmation · ✓ Trusted by 1000+
+                ✓ No waiting · ✓ Instant confirmation · ✓ Trusted by 50000+
               </div>
             </div>
           </div>

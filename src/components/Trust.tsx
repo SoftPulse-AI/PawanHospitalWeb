@@ -2,7 +2,7 @@ import { Users, Clock, Stethoscope, Activity, Heart, ShieldCheck } from "lucide-
 import { useReveal } from "@/hooks/useReveal";
 
 const stats = [
-  { icon: Users, value: "1000+", label: "Patients Served", color: "from-primary to-primary-glow" },
+  { icon: Users, value: "50K +", label: "Patients Served", color: "from-primary to-primary-glow" },
   { icon: Clock, value: "24×7", label: "Emergency Support", color: "from-emergency to-emergency-deep" },
   { icon: Stethoscope, value: "Expert", label: "Senior Doctors", color: "from-secondary to-primary" },
   { icon: Activity, value: "Modern", label: "Advanced Equipment", color: "from-success to-secondary" },
