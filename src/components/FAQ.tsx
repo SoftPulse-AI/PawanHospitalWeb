@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { useReveal } from "@/hooks/useReveal";
 
 const faqs = [
-  { q: "Where is Pawan Hospital located?", a: "Pawan Hospital is located in Samaypur, Ballabhgarh, Haryana." },
+  { q: "Where is Pawan Hospital located?", a: "Rajeev Colony ,Near CIA Office,Sec-56 FBD, Faridabad, India, 121004" },
   { q: "What services are available?", a: "General medicine, orthopedics, gynecology, pediatrics, diagnostics, physiotherapy, and emergency care." },
   { q: "Is emergency service available?", a: "Yes, 24×7 emergency services are available with experienced staff and modern equipment." },
   { q: "How can I book an appointment?", a: "You can book an appointment by calling us, sending a WhatsApp message, or using the booking form on this site." },

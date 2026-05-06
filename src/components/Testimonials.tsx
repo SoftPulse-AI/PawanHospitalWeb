@@ -9,7 +9,7 @@ const items = [
     name: "Rajesh K.",
     text: "Very supportive staff and experienced doctors. The entire treatment process felt smooth and well explained.",
     role: "Patient",
-    location: "Ballabhgarh",
+    location: "Faridabad",
   },
   {
     name: "Priya S.",
@@ -27,7 +27,7 @@ const items = [
     name: "Sunita D.",
     text: "Caring nurses and a fast emergency response when we needed it most. Truly grateful to the whole team.",
     role: "Patient",
-    location: "Ballabhgarh",
+    location: "Faridabad",
   },
 ];
 

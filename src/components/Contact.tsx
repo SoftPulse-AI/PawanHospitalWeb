@@ -49,11 +49,11 @@ export const Contact = () => {
         <div className="reveal grid lg:grid-cols-5 gap-5">
           <div className="lg:col-span-2 space-y-3">
             {[
-              { icon: MapPin, title: "Address", val: "Samaypur, Ballabhgarh, Haryana" },
+              { icon: MapPin, title: "Address", val: "Rajeev Colony ,Near CIA Office,Sec-56 FBD, Faridabad, India, 121004" },
               { icon: Phone, title: "Appointment", val: fmt(PHONE_APPOINTMENT), href: `tel:+91${PHONE_APPOINTMENT}` },
               { icon: Phone, title: "Medical Assistance", val: fmt(PHONE_MEDICAL), href: `tel:+91${PHONE_MEDICAL}` },
               { icon: Phone, title: "Reception & Query", val: fmt(PHONE_RECEPTION), href: `tel:+91${PHONE_RECEPTION}` },
-              { icon: Mail, title: "Email", val: "care@pawanhospital.in", href: "mailto:care@pawanhospital.in" },
+              { icon: Mail, title: "Email", val: "pawanhospital.social@gmail.com", href: "mailto:pawanhospital.social@gmail.com" },
               { icon: Clock, title: "OPD Hours", val: "Mon – Sat • 9 AM – 9 PM" },
             ].map((c) => (
               <a key={c.title} href={c.href || "#"} className="flex items-start gap-3 p-4 rounded-2xl bg-card border border-border shadow-soft hover:border-primary/40 transition-all">
@@ -81,7 +81,7 @@ export const Contact = () => {
           <div className="lg:col-span-3 rounded-2xl overflow-hidden border border-border shadow-elegant min-h-[360px]">
             <iframe
               title="Pawan Hospital Location"
-              src="https://www.google.com/maps?q=Samaypur+Ballabhgarh+Haryana&output=embed"
+              src="https://www.google.com/maps?q=Pawan+Hospital+Faridabad&output=embed"
               className="w-full h-full min-h-[360px] border-0"
               loading="lazy"
             />

@@ -17,7 +17,7 @@ export const Footer = () => {
                 <div className="text-xs opacity-80">Next Step In Care</div>
               </div>
             </div>
-            <p className="text-sm opacity-80 leading-relaxed">Trusted multi-specialty healthcare for the Ballabhgarh community.</p>
+            <p className="text-sm opacity-80 leading-relaxed">Trusted multi-specialty healthcare for Faridabad and nearby areas.</p>
           </div>
           <div>
             <div className="font-semibold mb-3 text-sm">Quick Links</div>
@@ -41,17 +41,17 @@ export const Footer = () => {
           <div>
             <div className="font-semibold mb-3 text-sm">Reach Us</div>
             <ul className="space-y-2 text-sm opacity-85">
-              <li className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 mt-0.5" /> Samaypur, Ballabhgarh, Haryana</li>
+              <li className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 mt-0.5" /> Rajeev Colony ,Near CIA Office,Sec-56 FBD, Faridabad, India, 121004</li>
               <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 mt-0.5" /> <a href={`tel:+91${PHONE_APPOINTMENT}`}>{fmt(PHONE_APPOINTMENT)} (Appointment)</a></li>
               <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 mt-0.5" /> <a href={`tel:+91${PHONE_MEDICAL}`}>{fmt(PHONE_MEDICAL)} (Medical)</a></li>
               <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 mt-0.5" /> <a href={`tel:+91${PHONE_RECEPTION}`}>{fmt(PHONE_RECEPTION)} (Reception)</a></li>
-              <li className="flex gap-2"><Mail className="h-4 w-4 shrink-0 mt-0.5" /> care@pawanhospital.in</li>
+              <li className="flex gap-2"><Mail className="h-4 w-4 shrink-0 mt-0.5" /> pawanhospital.social@gmail.com</li>
             </ul>
           </div>
         </div>
         <div className="pt-6 border-t border-white/15 text-xs opacity-75 flex flex-col md:flex-row justify-between gap-2">
           <div>© {new Date().getFullYear()} Pawan Hospital. All rights reserved.</div>
-          <div>Best Hospital in Faridabad , Ballabhgarh</div>
+          <div>Best Hospital in Faridabad</div>
         </div>
       </div>
     </footer>

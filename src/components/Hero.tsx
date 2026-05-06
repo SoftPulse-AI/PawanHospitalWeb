@@ -53,15 +53,14 @@ export const Hero = ({ onBook }: { onBook: () => void }) => {
             24×7 Emergency • Multi-Specialty • Live Care
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-[1.05] mb-5">
-            Where Every Heartbeat <br />
-            Gets the{" "}
+            Committed to Better Health <br />
             <span className="relative inline-block">
-              <span className="bg-gradient-to-r from-white via-primary-glow to-white bg-clip-text text-transparent">Care It Deserves</span>
+              <span className="bg-gradient-to-r from-white via-primary-glow to-white bg-clip-text text-transparent">for Every Patient.</span>
               <span className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary-glow to-transparent rounded-full" />
             </span>
           </h1>
           <p className="text-base md:text-xl text-white/90 max-w-2xl mb-8 leading-relaxed">
-            Pawan Hospital — Ballabhgarh's trusted multi-specialty care home. Expert doctors, modern diagnostics & compassionate 24×7 emergency response.
+            Pawan Hospital — Faridabad&apos;s trusted multi-specialty care home. Expert doctors, modern diagnostics & compassionate 24×7 emergency response. Area&apos;s best hospital for normal delivery.
           </p>
           <div className="flex flex-wrap gap-3 mb-10">
             <Button size="lg" onClick={onBook} className="gap-2 bg-white text-primary hover:bg-white/95 shadow-glow font-semibold text-base h-12">

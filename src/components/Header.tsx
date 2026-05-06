@@ -27,9 +27,9 @@ export const Header = ({ onBook }: { onBook: () => void }) => {
       <div className={`hidden md:block transition-all duration-300 bg-gradient-to-r from-primary-deep via-primary to-secondary text-primary-foreground ${scrolled ? "h-0 overflow-hidden opacity-0" : "h-9 opacity-100"}`}>
         <div className="container h-full flex items-center justify-between text-[11px] font-medium">
           <div className="flex items-center gap-5">
-            <span className="flex items-center gap-1.5"><MapPin className="h-3 w-3" /> Samaypur, Ballabhgarh, Haryana</span>
+            <span className="flex items-center gap-1.5"><MapPin className="h-3 w-3" /> Rajeev Colony ,Near CIA Office,Sec-56 FBD, Faridabad, India, 121004</span>
             <span className="flex items-center gap-1.5"><Clock className="h-3 w-3" /> OPD: 9 AM – 9 PM</span>
-            <span className="hidden lg:flex items-center gap-1.5"><Mail className="h-3 w-3" /> care@pawanhospital.in</span>
+            <span className="hidden lg:flex items-center gap-1.5"><Mail className="h-3 w-3" /> pawanhospital.social@gmail.com</span>
           </div>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1.5">

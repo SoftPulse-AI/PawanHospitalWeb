@@ -15,8 +15,6 @@ export const doctors: Doctor[] = [
   { name: "Dr. Sanjay Gopal", graduation: "MBBS", postGraduation: "DCH", specialization: "Paediatrics", department: "Pediatrics", initials: "SG" },
   { name: "Dr. Arpita Goen", graduation: "MBBS", postGraduation: "MS", specialization: "Obs & Gyne", department: "Obstetrics & Gynecology", initials: "AG" },
   { name: "Dr. Tanvi", graduation: "MBBS", postGraduation: "DNB", specialization: "Gastroenterology", department: "Gastroenterology", initials: "TN" },
-  { name: "Dr. Satender Singh", graduation: "MBBS", postGraduation: "MD", specialization: "Radiology", department: "Radiology", initials: "SS" },
-  { name: "Dr. Vishal Srivastava", graduation: "MBBS, BDS", postGraduation: "", specialization: "Dental", department: "Dental", initials: "VS" },
   { name: "Dr. Shubham Tyagi", graduation: "MBBS, BDS", postGraduation: "", specialization: "Dental", department: "Dental", initials: "ST" },
   { name: "Dr. Prashant Gupta", graduation: "MBBS", postGraduation: "MD", specialization: "Pathology", department: "Pathology", initials: "PG" },
   { name: "Dr. Sharad Mohan", graduation: "MBBS", postGraduation: "MS", specialization: "ENT", department: "ENT", initials: "SM" },
@@ -34,7 +32,6 @@ export const doctors: Doctor[] = [
   { name: "Dr. Ankit Jain", graduation: "MBBS", postGraduation: "MD", specialization: "Anaesthesia", department: "Anaesthesia", initials: "AJ" },
   { name: "Dr. Lalit Kumar", graduation: "MBBS", postGraduation: "MD", specialization: "Anaesthesia", department: "Anaesthesia", initials: "LK" },
   { name: "Dr. Naseeb Rahman", graduation: "MBBS", postGraduation: "MD", specialization: "Neurology", department: "Neurology", initials: "NR" },
-  { name: "Dr. Tarun", graduation: "MBBS", postGraduation: "MS, MCH", specialization: "Neuro Surgery", department: "Neurosurgery", initials: "TR" },
   { name: "Dr. Sanchit Bhandari", graduation: "MBBS", postGraduation: "MD", specialization: "General Medicine", department: "General Medicine", initials: "SB" },
 ];
 

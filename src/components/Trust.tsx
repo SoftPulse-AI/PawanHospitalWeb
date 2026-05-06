@@ -1,11 +1,11 @@
-import { Users, Clock, Stethoscope, Activity, Heart, ShieldCheck } from "lucide-react";
+import { Clock, Stethoscope, Baby, Scissors, Heart, ShieldCheck } from "lucide-react";
 import { useReveal } from "@/hooks/useReveal";
 
 const stats = [
-  { icon: Users, value: "50K +", label: "Patients Served", color: "from-primary to-primary-glow" },
+  { icon: Scissors, value: "More than 25,000", label: "Successful Surgeries", color: "from-primary to-primary-glow" },
+  { icon: Baby, value: "More than 10,000", label: "Normal Deliveries", color: "from-secondary to-primary" },
   { icon: Clock, value: "24×7", label: "Emergency Support", color: "from-emergency to-emergency-deep" },
-  { icon: Stethoscope, value: "Expert", label: "Senior Doctors", color: "from-secondary to-primary" },
-  { icon: Activity, value: "Modern", label: "Advanced Equipment", color: "from-success to-secondary" },
+  { icon: Stethoscope, value: "Expert", label: "Senior Doctors", color: "from-success to-secondary" },
 ];
 
 const ribbon = [

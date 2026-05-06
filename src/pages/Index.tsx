@@ -8,7 +8,6 @@ import { Departments } from "@/components/Departments";
 import { Doctors } from "@/components/Doctors";
 import { Facilities } from "@/components/Facilities";
 import { Journey } from "@/components/Journey";
-import { HealingJourneyCTA } from "@/components/HealingJourneyCTA";
 import { Testimonials } from "@/components/Testimonials";
 import { Emergency } from "@/components/Emergency";
 import { FAQ } from "@/components/FAQ";
@@ -41,7 +40,6 @@ const Index = () => {
         <Facilities />
         <Journey />
         <Emergency />
-        <HealingJourneyCTA onBook={triggerBook} />
         <Testimonials />
         <FAQ />
         <Contact />
